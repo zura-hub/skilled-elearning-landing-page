@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* design for mobile */
+
+
+      
+    .skills-getButtom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 35px;
+        color: #13183F;
+    }
+
+    .get-buttom {
+        margin-top: 15px;
+        width: 140px;
+        height: 48px;
+        border-radius: 28px;
+        background: #13183F;
+        color: white;
+    }
+
+    .max-skills {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 50px;
+        color: #13183F;
+        width: 343px;
+        height: 101px;
+    }
+
+    .cover-content-paragrap {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+    }
+
+    .cover-content-btn {
+        color: white;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.8px;
+        width: 167px;
+        height: 48px;
+    }
+
+    .cover-img {
+        display: none;
+    }
+
+    .cover-content-image{
+        overflow: hidden;
+    }
+
+    .cover-img-mobile{
+        width: 290px;      
+    }
+
+
+    /* card-content */
+    .card-content{
+        display: flex;
+        justify-content: baseline;
+        flex-wrap: wrap;
+    }
+
+    .first-content{
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 10px;
+        width: 343px;
+        height: 120px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 30px 0px 30px;
+    }
+
+    .card-child-content{
+        width: 343px;
+        height: 259px;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    }
+
+    .icon{
+        display: flex;
+        margin-top: 10px;
+        height: 56px;
+        width: 56px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        
+    }
+
+    .card-header-text{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        color: #13183F;
+    }
+
+    .card-content-text{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+        margin-bottom: 10px;
+    }
+
+    .get-start{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F74780;
+    }
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        background: #13183F;
+        width: 100%;
+        height: 80px;
+        margin-top: 30px;
+    }
+
+    .skills-footer{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    .get-buttom{
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        border-radius: 28px;
+        width: 148px;
+        height: 48px;
+    }
+
+
+
+
+/* designe for tablet */
+
+@media screen and (min-width: 768px){
+
+     .cover-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cover-img {
+        display: flex;
+        width: 238px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .cover-content-image{
+        overflow: hidden;
+    }
+
+    .cover-img-mobile{
+       display: none;      
+    }
+
+    .cover-content-fiest-child{
+        width: 398px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .card-content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .first-content{
+        height: 259px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+}
+@media screen and (min-width: 1440px) {
+    
+
+.skills-getButtom{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.card-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.cover-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cover-content-image{
+    overflow: hidden;
+}
+
+.cover-img{
+    width: 500px;
+    margin-right: -163px;
+    margin-top: -150px;
+    overflow: hidden;
+}
+
+.first-content{
+    width: 350px;
+    margin: 15px;
+}
+
+.card-child-content{
+    width: 350px;
+    margin: 15px;
+}
+
+}
